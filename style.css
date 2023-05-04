@@ -1,0 +1,454 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.container {
+  overflow-y: hidden;
+}
+.nav {
+  background-color: white;
+  list-style-type: none;
+  height: 50px;
+}
+.nav li {
+  display: inline;
+  font-size: 20px;
+  padding: 10px;
+}
+.nav li a {
+  text-decoration: none;
+  color: black;
+}
+.nav-item {
+  position: absolute;
+  margin-top: 10px;
+  right: 0;
+  overflow: hidden;
+}
+.header-icon {
+  margin-top: 5px;
+  margin-left: 10px;
+  position: absolute;
+}
+#btn-top {
+  border: 1px solid orange;
+  text-decoration: none;
+  color: orange;
+  width: 90px;
+  height: 25px;
+  background-color: white;
+}
+.house {
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+.house-content {
+  height: 400px;
+  position: absolute;
+  width: 49%;
+  padding-top: 70px;
+  font-size: 50px;
+  padding-left: 30px;
+}
+.body-2 {
+  left: 40%;
+}
+.help {
+  font-size: 25px;
+}
+.house-content {
+  height: 500px;
+  width: 49%;
+  display: inline-block;
+  overflow-y: hidden;
+}
+#img {
+  position: absolute;
+  object-fit: cover;
+  top: 0;
+  height: 460px;
+  width: 600px;
+}
+#img2 {
+  position: absolute;
+  object-fit: cover;
+  height: 460px;
+  width: 100px;
+  right: 5px;
+}
+.booking-form {
+  position: absolute;
+  border: 1px solid gray;
+  background-color: white;
+  left: 30px;
+  padding: 20px;
+  bottom: 80px;
+  width: 700px;
+  height: 160px;
+}
+.form-control {
+  display: inline-block;
+}
+.icon {
+  padding-left: 25px;
+  background: url("./Images/location.webp") no-repeat left;
+  background-size: 20px;
+  width: 300px;
+}
+.icon1 {
+  padding-left: 25px;
+  background: url("./Images/property.webp") no-repeat left;
+  background-size: 20px;
+  width: 120px;
+}
+.icon2 {
+  padding-left: 25px;
+  background: url("./Images/sqft.webp") no-repeat left;
+  background-size: 20px;
+  width: 120px;
+}
+.icon3 {
+  padding-left: 25px;
+  background: url("./Images/beds.webp") no-repeat left;
+  background-size: 20px;
+  width: 120px;
+}
+.icon4 {
+  padding-left: 25px;
+  background: url("./Images/bath.webp") no-repeat left;
+  background-size: 20px;
+  width: 120px;
+}
+.btn-main {
+  background-color: orange;
+  border: none;
+  color: white;
+}
+#btn {
+  width: 70px;
+  height: 20px;
+}
+.perfect-home {
+  width: 100%;
+  height: 300px;
+  position: relative;
+}
+#btn2 {
+  width: 120px;
+  height: 30px;
+  margin-top: 15px;
+  border-radius: 2px;
+}
+.home-1 {
+  position: absolute;
+  top: 50px;
+  left: 100px;
+}
+.home-2 {
+  position: absolute;
+  width: 150px;
+  height: 270px;
+  right: 100px;
+  background-image: url("./Images/nature-1.webp");
+  background-size: cover;
+  top: 30px;
+}
+.home-3 {
+  position: absolute;
+  width: 140px;
+  height: 300px;
+  right: 270px;
+  background-image: url("./Images/nature-2.webp");
+  background-size: cover;
+}
+.home-4 {
+  position: absolute;
+  top: 50px;
+  width: 140px;
+  height: 250px;
+  right: 430px;
+  background-image: url("./Images/nature-3.webp");
+  background-size: cover;
+}
+.home-5 {
+  position: absolute;
+  top: 50px;
+  width: 80px;
+  height: 250px;
+  right: 0px;
+  background-image: url("./Images/nature-4.webp");
+  background-size: cover;
+}
+.services {
+  width: 100%;
+  position: relative;
+  margin-top: 50px;
+  overflow-y: hidden;
+}
+.rentup-service {
+  height: 370px;
+  width: 100%;
+  position: relative;
+}
+.content {
+  width: 49%;
+  height: 260px;
+  position: absolute;
+  top: 20%;
+  left: 8%;
+  background-color: rgb(214, 208, 208);
+}
+.content-info {
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  width: 500px;
+}
+#btn1 {
+  height: 30px;
+  margin-top: 15px;
+  width: 100px;
+  border-radius: 5px;
+}
+#dotted {
+  position: absolute;
+  bottom: 5px;
+  left: 4%;
+}
+.service-house {
+  position: absolute;
+  width: 505px;
+  height: 340px;
+  right: 50px;
+  top: 15px;
+  background-size: cover;
+}
+.service-house img {
+  height: 300px;
+  width: 100%;
+  position: absolute;
+  top: 22px;
+}
+.management-service {
+  height: 370px;
+  width: 100%;
+  position: relative;
+  top: 1;
+}
+.service-office {
+  position: absolute;
+  width: 505px;
+  height: 340px;
+  left: 50px;
+  top: 15px;
+  background-size: cover;
+}
+.service-office img {
+  height: 300px;
+  width: 100%;
+  position: absolute;
+  top: 15px;
+}
+.office-content {
+  position: absolute;
+  background-color: rgb(214, 208, 208);
+  top: 30px;
+  height: 260px;
+  width: 53%;
+  right: 50px;
+  z-index: -1;
+}
+.office-content-info {
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  width: 500px;
+}
+#btn3 {
+  height: 30px;
+  margin-top: 15px;
+  margin-left: 390px;
+  width: 100px;
+  border-radius: 5px;
+}
+#dotted-service {
+  position: absolute;
+  top: 55%;
+  right: 2%;
+  height: 70px;
+  width: 70px;
+}
+#dotted-service-1{
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  left: 10px;
+  bottom: 0px;
+}
+.Features {
+  position: relative;
+  top: 50px;
+  width: 100%;
+  height: 800px;
+}
+.features-item1 {
+  top: 60px;
+  display: inline-block;
+  position: absolute;
+  height: 300px;
+  width: 30%;
+  left: 8%;
+}
+.features-item1 img {
+  height: 200px;
+  width: 80%;
+  border-radius: 5px;
+}
+#item2 {
+  left: 40%;
+}
+#item3 {
+  left: 70%;
+}
+.for-rent {
+  position: absolute;
+  top: 0px;
+  height: 30px !important;
+  width: 70px !important;
+}
+.features-item1 .f-icon {
+  height: 15px;
+  width: 15px;
+}
+.img-info h3 {
+  color: orange;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.Features .Features-bottom {
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  bottom: 8%;
+}
+.About-us {
+  position: relative;
+  height: 400px;
+  width: 100%;
+}
+.About-us img {
+  height: 300px;
+  width: 40%;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+.About-container {
+  display: inline-block;
+  width: 45%;
+}
+.About-us .info {
+  position: absolute;
+  right: -15px;
+  top: 100px;
+  right: 70px;
+}
+.home-seller {
+  margin-top: 40px;
+}
+.Find-Agent {
+  position: relative;
+  height: 200px;
+  width: 95%;
+  left: 30px;
+  background-color: orange;
+  color: white;
+  top: 0px;
+  border-radius: 5px;
+}
+.Agent-info {
+  display: inline-block;
+  position: absolute;
+  font-size: 25px;
+  top: 25px;
+  left: 40px;
+}
+.button {
+  position: absolute;
+  left: 900px;
+  top: 70px;
+}
+#agent-btn {
+  width: 140px;
+  height: 35px;
+}
+#dotted-agent {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  bottom: 5px;
+}
+.footer {
+  overflow-y: hidden;
+  position: relative;
+  top: 40px;
+  height: 300px;
+  width: 100%;
+}
+.footer img {
+  height: 300px;
+  width: 100%;
+  z-index: 1;
+}
+.footer-menu1 {
+  position: absolute;
+  display: inline-block;
+  height: 300px;
+  width: 21%;
+}
+.footer-menu2 {
+  position: absolute;
+  display: inline-block;
+  height: 300px;
+  width: 21%;
+  left: 330px;
+  top: 40px;
+}
+.footer-menu3 {
+  position: absolute;
+  display: inline-block;
+  height: 300px;
+  width: 21%;
+  right: 330px;
+  top: 40px;
+}
+.footer-menu4 {
+  position: absolute;
+  /* border: 2px solid black; */
+  display: inline-block;
+  height: 300px;
+  width: 21%;
+  right: 10px;
+  top: 40px;
+}
+.footer-menu1 img {
+  height: 50px;
+  width: 90px;
+  top: 0px;
+}
+#footer-left {
+  left: 30px;
+}
+.Social-icon {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+}
+.Social-icon img {
+  width: 50px;
+  height: 40px;
+}
